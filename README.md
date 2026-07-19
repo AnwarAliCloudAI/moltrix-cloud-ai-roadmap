@@ -2,6 +2,11 @@
 
 A structured, evidence-driven journey combining cloud infrastructure, endpoint security, artificial intelligence, and enterprise transformation.
 
+## Master Roadmap — Version 3.1
+
+- [View or download the PDF](docs/Moltrix_Cloud_AI_Roadmap_V3.1.pdf)
+- [Download the editable Word document](docs/Moltrix_Cloud_AI_Roadmap_V3.1.docx)
+
 ## Mission
 
 I am a finance professional with 19 years of experience, building practical expertise in Cloud and AI technologies. My goal is to combine financial leadership, technology, and responsible AI to solve real business problems.
