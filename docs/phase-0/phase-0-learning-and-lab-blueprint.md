@@ -72,9 +72,9 @@ The practical environment will be called:
 
 It will provide a safe environment in which Anwar can build, test, break, observe, and repair technical systems without affecting production resources.
 
-![Moltrix Phase 0 Lab Topology](../../diagrams/phase-0/moltrix-phase0-lab-topology.png)
+![Moltrix Phase 0 Lab Topology](assets/moltrix-phase0-lab-topology.png)
 
-An editable SVG version is also available in the [Phase 0 diagrams folder](../../diagrams/phase-0/).
+An editable SVG version is also available in the [Phase 0 assets folder](assets/).
 
 [Read the Host Capacity and Virtualization Decision](01-host-capacity-and-virtualization-decision.md)
 

@@ -8,7 +8,7 @@ The objective is not to collect certifications. Each phase develops a capability
 
 Moltrix is currently building a safe Hyper-V environment for systems, networking, identity, automation, and structured troubleshooting.
 
-[![Moltrix Phase 0 Lab Topology](diagrams/phase-0/moltrix-phase0-lab-topology.png)](docs/phase-0/phase-0-learning-and-lab-blueprint.md)
+[![Moltrix Phase 0 Lab Topology](docs/phase-0/assets/moltrix-phase0-lab-topology.png)](docs/phase-0/phase-0-learning-and-lab-blueprint.md)
 
 [Explore the Phase 0 Learning and Lab Blueprint](docs/phase-0/phase-0-learning-and-lab-blueprint.md)
 
