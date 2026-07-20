@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Moltrix Phase 0 Lab Topology</title>
+  <desc id="desc">A Lenovo Windows 11 Pro host runs VMware Workstation. A protected Moltrix virtual switch connects a Windows Server domain controller, a Windows 11 domain client, a Linux test system, and a VMware NAT gateway to the internet.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081426"/>
+      <stop offset="1" stop-color="#102a43"/>
+    </linearGradient>
+    <linearGradient id="hostFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#193a63"/>
+      <stop offset="1" stop-color="#225c8f"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#7dd3fc"/>
+    </marker>
+    <style>
+      .title { font: 700 48px Arial, sans-serif; fill: #f8fafc; }
+      .subtitle { font: 400 23px Arial, sans-serif; fill: #bae6fd; }
+      .section { font: 700 22px Arial, sans-serif; fill: #7dd3fc; letter-spacing: 1.2px; }
+      .node-title { font: 700 25px Arial, sans-serif; fill: #f8fafc; }
+      .node-sub { font: 400 19px Arial, sans-serif; fill: #dbeafe; }
+      .role { font: 700 17px Arial, sans-serif; fill: #67e8f9; letter-spacing: 0.7px; }
+      .small { font: 400 16px Arial, sans-serif; fill: #cbd5e1; }
+      .line { stroke: #7dd3fc; stroke-width: 4; fill: none; marker-end: url(#arrow); }
+      .link { stroke: #38bdf8; stroke-width: 4; fill: none; }
+      .dashed { stroke: #94a3b8; stroke-width: 3; fill: none; stroke-dasharray: 10 9; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1100" fill="url(#bg)"/>
+  <circle cx="1450" cy="95" r="210" fill="#0ea5e9" opacity="0.08"/>
+  <circle cx="130" cy="1010" r="260" fill="#22d3ee" opacity="0.05"/>
+
+  <text x="90" y="88" class="title">Moltrix Phase 0 Lab Topology</text>
+  <text x="90" y="130" class="subtitle">A safe, isolated foundation for systems, networking, identity, automation, and troubleshooting</text>
+
+  <text x="90" y="190" class="section">PHYSICAL HOST</text>
+  <rect x="90" y="215" width="1420" height="170" rx="24" fill="url(#hostFill)" stroke="#7dd3fc" stroke-width="2" filter="url(#shadow)"/>
+  <text x="140" y="275" class="node-title">Lenovo Windows 11 Pro Host</text>
+  <text x="140" y="316" class="node-sub">Physical computer • protected from experimental domain and security policies</text>
+  <rect x="1050" y="252" width="390" height="88" rx="16" fill="#0b2038" stroke="#38bdf8" stroke-width="2"/>
+  <text x="1085" y="290" class="role">HYPERVISOR</text>
+  <text x="1085" y="320" class="node-title">VMware Workstation</text>
+
+  <path d="M1245 340 L1245 445" class="line"/>
+
+  <text x="90" y="438" class="section">ISOLATED VIRTUAL LAB</text>
+  <rect x="90" y="460" width="1420" height="525" rx="28" fill="#0b1c31" stroke="#2c618c" stroke-width="2"/>
+
+  <rect x="470" y="500" width="660" height="96" rx="18" fill="#123455" stroke="#38bdf8" stroke-width="3" filter="url(#shadow)"/>
+  <text x="520" y="540" class="role">VIRTUAL NETWORK</text>
+  <text x="520" y="574" class="node-title">Moltrix Virtual Switch</text>
+  <text x="870" y="568" class="node-sub">Lab communication boundary</text>
+
+  <path d="M800 596 L800 665" class="link"/>
+  <path d="M800 630 L295 630 L295 685" class="line"/>
+  <path d="M800 630 L800 685" class="line"/>
+  <path d="M800 630 L1305 630 L1305 685" class="line"/>
+
+  <rect x="145" y="690" width="390" height="205" rx="22" fill="#142b47" stroke="#60a5fa" stroke-width="3" filter="url(#shadow)"/>
+  <text x="185" y="738" class="role">IDENTITY + NAME SERVICES</text>
+  <text x="185" y="778" class="node-title">DC01</text>
+  <text x="185" y="813" class="node-sub">Windows Server</text>
+  <text x="185" y="848" class="small">• Active Directory Domain Services</text>
+  <text x="185" y="876" class="small">• DNS for moltrix.local</text>
+
+  <rect x="605" y="690" width="390" height="205" rx="22" fill="#142b47" stroke="#60a5fa" stroke-width="3" filter="url(#shadow)"/>
+  <text x="645" y="738" class="role">MANAGED ENDPOINT</text>
+  <text x="645" y="778" class="node-title">CLIENT01</text>
+  <text x="645" y="813" class="node-sub">Windows 11</text>
+  <text x="645" y="848" class="small">• Domain client</text>
+  <text x="645" y="876" class="small">• Policy and failure testing</text>
+
+  <rect x="1065" y="690" width="390" height="205" rx="22" fill="#142b47" stroke="#60a5fa" stroke-width="3" filter="url(#shadow)"/>
+  <text x="1105" y="738" class="role">CROSS-PLATFORM SYSTEM</text>
+  <text x="1105" y="778" class="node-title">LINUX01</text>
+  <text x="1105" y="813" class="node-sub">Linux</text>
+  <text x="1105" y="848" class="small">• CLI and permissions</text>
+  <text x="1105" y="876" class="small">• Service and network testing</text>
+
+  <rect x="560" y="925" width="480" height="82" rx="17" fill="#183650" stroke="#22d3ee" stroke-width="2"/>
+  <text x="600" y="959" class="role">CONTROLLED EXTERNAL ACCESS</text>
+  <text x="600" y="988" class="node-title">VMware NAT Gateway</text>
+  <path d="M800 895 L800 925" class="line"/>
+  <path d="M1040 966 L1215 966" class="dashed"/>
+  <rect x="1220" y="925" width="235" height="82" rx="17" fill="#083047" stroke="#22d3ee" stroke-width="2"/>
+  <text x="1296" y="976" class="node-title">Internet</text>
+
+  <text x="90" y="1050" class="small">Figure 1 • Phase 0 blueprint v0.1 • Experimental policies remain inside the virtual lab</text>
+  <text x="1380" y="1050" class="role" text-anchor="end">MOLTRIX</text>
+</svg>
