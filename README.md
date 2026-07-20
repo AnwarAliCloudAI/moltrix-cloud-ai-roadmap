@@ -85,6 +85,8 @@ Each phase carries knowledge forward. No certification or project is treated as 
 
 Phase 0 is currently being strengthened before deeper MD-102 implementation.
 
+[Read the Phase 0 Learning and Lab Blueprint](docs/phase-0/phase-0-learning-and-lab-blueprint.md)
+
 Current foundation topics include:
 
 - Operating systems
