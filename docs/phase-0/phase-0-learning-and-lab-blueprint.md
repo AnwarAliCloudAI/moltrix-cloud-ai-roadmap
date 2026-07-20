@@ -76,17 +76,19 @@ It will provide a safe environment in which Anwar can build, test, break, observ
 
 An editable SVG version is also available in the [Phase 0 diagrams folder](../../diagrams/phase-0/).
 
+[Read the Host Capacity and Virtualization Decision](01-host-capacity-and-virtualization-decision.md)
+
 ## Initial Lab Architecture
 
 | Component | Purpose |
 |---|---|
 | Lenovo Windows 11 Pro host | Physical computer running the learning environment |
-| VMware Workstation | Virtualization platform separating lab machines from the host |
+| Microsoft Hyper-V | Native virtualization platform separating lab machines from the host |
 | Moltrix virtual switch | Connects the virtual machines inside the lab network |
 | DC01 — Windows Server | Provides Active Directory Domain Services and DNS |
 | CLIENT01 — Windows 11 | Represents a company-managed Windows endpoint |
 | LINUX01 — Linux | Supports command-line, service, permission, networking, and automation practice |
-| VMware NAT gateway | Provides controlled internet access without directly exposing the virtual machines |
+| Planned Hyper-V NAT | Provides controlled internet access without directly exposing the virtual machines |
 
 This is the initial design. Configuration details will be finalized only after host capacity, software licensing, networking, and safety requirements are validated.
 
@@ -262,7 +264,7 @@ Virtualization allows several isolated systems to run on one physical computer. 
 #### Practical work
 
 - Validate host capacity
-- Install and configure VMware Workstation
+- Validate and configure Microsoft Hyper-V
 - Build the three planned virtual machines
 - Configure the virtual network
 - Test isolation and internet access
@@ -428,7 +430,9 @@ Completing this gate does not end Phase 0. Foundation development continues thro
 - [x] Phase 0 business purpose defined
 - [x] Initial learning chapters designed
 - [x] Initial lab topology designed
-- [ ] Host capacity and licensing validated
+- [x] Host capacity validated
+- [x] Hyper-V selected, enabled, and verified
+- [ ] Guest operating-system licensing and evaluation rights validated
 - [ ] Detailed lab requirements documented
 - [ ] Lab software and operating-system sources approved
 - [ ] Virtual network addressing plan completed
@@ -439,17 +443,21 @@ Completing this gate does not end Phase 0. Foundation development continues thro
 - [ ] Controlled failures documented
 - [ ] Professor-ready demonstration completed
 
-## Immediate Next Decision
+## Immediate Next Design Gate
 
-Before downloading or installing lab software, Moltrix will assess:
+The host-capacity and virtualization-platform decisions are complete.
 
-- Lenovo host processor, memory, storage, and virtualization support
-- Current Windows edition and update status
-- VMware Workstation compatibility and licensing
+Before creating any virtual machine, Moltrix will now define:
+
+- Hyper-V virtual-switch purpose and type
+- Lab network isolation and controlled internet access
+- IP-addressing and subnet plan
+- DNS sequence and dependency
+- Host and guest memory allocations
+- Virtual-disk and checkpoint strategy
 - Windows Server evaluation availability and permitted use
 - Windows 11 virtual-machine licensing
-- Linux distribution selection
-- Network isolation and internet-access design
-- Storage and snapshot requirements
+- Linux distribution and approved download source
+- Evidence and rollback requirements
 
-The outcome will determine whether the initial three-machine architecture is practical or requires a smaller first implementation.
+The outcome will determine how DC01, CLIENT01, and LINUX01 communicate safely and how each networking layer will be tested before directory services are introduced.

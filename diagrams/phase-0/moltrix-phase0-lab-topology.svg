@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100" role="img" aria-labelledby="title desc">
   <title id="title">Moltrix Phase 0 Lab Topology</title>
-  <desc id="desc">A Lenovo Windows 11 Pro host runs VMware Workstation. A protected Moltrix virtual switch connects a Windows Server domain controller, a Windows 11 domain client, a Linux test system, and a VMware NAT gateway to the internet.</desc>
+  <desc id="desc">A Lenovo Windows 11 Pro host runs Microsoft Hyper-V. A protected Moltrix virtual switch connects a Windows Server domain controller, a Windows 11 domain client, a Linux test system, and a planned Hyper-V NAT service to the internet.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#081426"/>
@@ -43,7 +43,7 @@
   <text x="140" y="316" class="node-sub">Physical computer • protected from experimental domain and security policies</text>
   <rect x="1050" y="252" width="390" height="88" rx="16" fill="#0b2038" stroke="#38bdf8" stroke-width="2"/>
   <text x="1085" y="290" class="role">HYPERVISOR</text>
-  <text x="1085" y="320" class="node-title">VMware Workstation</text>
+  <text x="1085" y="320" class="node-title">Microsoft Hyper-V</text>
 
   <path d="M1245 340 L1245 445" class="line"/>
 
@@ -83,7 +83,7 @@
 
   <rect x="560" y="925" width="480" height="82" rx="17" fill="#183650" stroke="#22d3ee" stroke-width="2"/>
   <text x="600" y="959" class="role">CONTROLLED EXTERNAL ACCESS</text>
-  <text x="600" y="988" class="node-title">VMware NAT Gateway</text>
+  <text x="600" y="988" class="node-title">Planned Hyper-V NAT</text>
   <path d="M800 895 L800 925" class="line"/>
   <path d="M1040 966 L1215 966" class="dashed"/>
   <rect x="1220" y="925" width="235" height="82" rx="17" fill="#083047" stroke="#22d3ee" stroke-width="2"/>
