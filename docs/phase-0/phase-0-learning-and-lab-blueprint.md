@@ -218,8 +218,6 @@ moltrix.local — Active Directory domain
 └── Security Groups
     ├── Budget-Managers
     └── HR-Managers
-    cat >> docs/phase-0/phase-0-learning-and-lab-blueprint.md <<'MOLTRIX_SECTION_1'
-
 ```
 
 The organizational unit arranges and helps administer objects. The security group helps grant access to resources. An attribute stores information about an object, such as a user’s job title.

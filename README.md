@@ -2,7 +2,31 @@
 
 Moltrix is a connected professional transformation journey combining Anwar Ali’s finance leadership with Cloud, security, automation, platform engineering, and responsible Artificial Intelligence.
 
+> **Portfolio disclosure:** Moltrix is a simulated organization and connected portfolio environment. It is not a real operating company. Published implementations represent controlled labs, designs, and tested demonstrations.
+
 The objective is not to collect certifications. Each phase develops a capability required by the next phase, applies it to a realistic Moltrix business problem, and produces tested evidence that can be explained to professors, employers, and industry professionals.
+
+## Current Tactical Priority — July to December 2026
+
+The current five-month plan concentrates Moltrix work on five connected Microsoft milestones:
+
+1. AB-900 — Microsoft 365 Copilot and Agent Administration Fundamentals
+2. AB-650 — AI Services Administrator Associate path, conditional on final official availability and scope
+3. AZ-900 — Azure Fundamentals
+4. AZ-104 — Azure Administrator
+5. AZ-305 — Designing Microsoft Azure Infrastructure Solutions
+
+| Certification focus | Moltrix business event | Intended portfolio outcome | Current status |
+|---|---|---|---|
+| AB-900 | Group Holdings prepares an AI-enabled Microsoft 365 workplace | Microsoft 365 Copilot and Agent Administration Foundation | In progress |
+| AB-650 | Group Holdings requires governed AI service administration | AI Services Administration and Governance Lab | Planned; official scope pending |
+| AZ-900 | Leadership evaluates and approves Cloud adoption | Azure Cloud Foundation and Governance Plan | Planned |
+| AZ-104 | Construction requires an operational Azure environment | Secure Azure Infrastructure Operations Service | Planned |
+| AZ-305 | A client requires competing joint-venture technology proposals | Enterprise Cloud Architecture and Transformation Proposal | Planned |
+
+[Read the July–December 2026 Tactical Roadmap](docs/program/tactical-roadmap-jul-dec-2026.md)
+
+[Read the Moltrix Vision and Operating Model](docs/program/vision-and-operating-model.md)
 
 ## Current Build — Phase 0 Foundation Lab
 
@@ -12,9 +36,9 @@ Moltrix is currently building a safe Hyper-V environment for systems, networking
 
 [Explore the Phase 0 Learning and Lab Blueprint](docs/phase-0/phase-0-learning-and-lab-blueprint.md)
 
-## Master Roadmap — Version 3.1
+## Strategic Roadmap — Version 3.1
 
-Version 3.1 is the locked executive roadmap governing the sequence, evidence standard, practical projects, and advancement gates.
+Version 3.1 remains the strategic reference for the broader journey. The July–December 2026 tactical roadmap defines the currently activated certification and portfolio sequence.
 
 - [View or download Roadmap V3.1 as PDF](docs/Moltrix_Cloud_AI_Roadmap_V3.1.pdf)
 - [Download the editable Roadmap V3.1 Word document](docs/Moltrix_Cloud_AI_Roadmap_V3.1.docx)
@@ -91,7 +115,7 @@ Each phase carries knowledge forward. No certification or project is treated as 
 
 ### Phase 0 — Continuous Technical Foundation
 
-Phase 0 is currently being strengthened before deeper MD-102 implementation.
+Phase 0 is currently being strengthened as the technical foundation for Microsoft 365, endpoint, Cloud, security, and AI administration.
 
 [Read the Phase 0 Learning and Lab Blueprint](docs/phase-0/phase-0-learning-and-lab-blueprint.md)
 
@@ -113,7 +137,7 @@ The Phase 0 exit gate requires Anwar to explain, build, test, troubleshoot, and 
 
 ### Phase 1 — Endpoint Administration and Security
 
-MD-102 remains the active major certification.
+Endpoint work remains a supporting practical foundation. MD-102 is retained in the strategic roadmap but is not one of the five certifications activated in the July–December 2026 tactical sequence.
 
 The active evidence project is:
 
@@ -196,6 +220,11 @@ Evidence sanitization is part of the professional standard.
 - [x] Moltrix Secure Endpoint Management repository established
 - [x] Endpoint project charter completed
 - [x] Initial endpoint business and security requirements documented
+- [x] July–December 2026 certification sequence approved
+- [x] Moltrix simulated-organization and two-track operating model defined
+- [x] Publish the approved vision and tactical roadmap
+- [ ] Complete Lesson 0E.1 terminology and planning
+- [ ] Create and validate CLIENT01 manually
 - [ ] Complete the Phase 0 learning and lab blueprint
 - [ ] Build the Phase 0 systems and networking lab
 - [ ] Complete the endpoint identity and management architecture decision
