@@ -2,78 +2,76 @@
 
 ## Document Status
 
-- **Version:** 0.2
+- **Version:** 0.3
 - **Status:** Approved tactical direction
 - **Approved:** July 20, 2026
 - **Execution window:** July 20–December 31, 2026
 
 ## Tactical Objective
 
-The objective is to strengthen employment readiness through certifications and verifiable hands-on evidence. The approved target sequence is:
+The 2026 objective is to build credible endpoint and Azure administration capability, supported by verifiable Moltrix evidence, while beginning the AWS foundation without sacrificing AZ-104 depth.
 
-1. AB-900 — Microsoft 365 Copilot and Agent Administration Fundamentals
-2. AB-650 — AI Services Administrator Associate path
-3. AZ-900 — Azure Fundamentals
-4. AZ-104 — Azure Administrator
-5. AZ-305 — Designing Microsoft Azure Infrastructure Solutions
+The approved sequence is:
 
-AB-650 remains conditional on Microsoft publishing final official availability, objectives, prerequisites, and study resources. Moltrix will verify these details before activating the exam.
+1. MD-102 — Microsoft 365 Endpoint Administrator
+2. AZ-900 — Microsoft Azure Fundamentals
+3. AZ-104 — Microsoft Azure Administrator
+4. AWS Certified Cloud Practitioner — foundational study in December; exam targeted for January 2027 unless readiness permits a December attempt
 
-Target dates guide study but do not prove readiness. An exam or portfolio milestone is complete only when the relevant work has actually been completed and verified.
+AB-900 is deferred until the Microsoft 365 Copilot and agent-administration workstream is activated. AB-650 remains conditional on stable official availability, scope, licensing, and lab feasibility. AZ-305 follows proven AZ-104 operational capability rather than being forced into 2026.
+
+Target dates guide study. A certification, lab, service, or portfolio milestone is complete only after the relevant work has actually been completed and verified.
 
 ## Alignment Model
 
-| Target period | Certification focus | Moltrix business need | Intended service or project | Status |
+| Target period | Certification or capability focus | Moltrix business need | Intended service or project | Status |
 |---|---|---|---|---|
-| July–August | AB-900 | Prepare an AI-enabled Microsoft 365 workplace | Microsoft 365 Copilot and Agent Administration Foundation | In progress |
-| August–September | AB-650 | Administer AI services securely and responsibly | AI Services Administration and Governance Lab | Planned; official scope pending |
-| By September 30 | AZ-900 | Evaluate Cloud responsibility, services, governance, security, and cost | Azure Cloud Foundation and Governance Plan | Planned |
-| October–November | AZ-104 | Build and operate secure Azure infrastructure for Construction | Secure Azure Infrastructure Operations Service | Planned |
-| December | AZ-305 | Respond to a client-required joint-venture architecture competition | Enterprise Cloud Architecture and Transformation Proposal | Planned |
+| July 20–mid-September | MD-102 | Establish secure, supportable Windows endpoints for the new Group Holdings workforce | Moltrix Endpoint Management Service | In progress |
+| Mid–late September | AZ-900 | Evaluate Cloud responsibility, services, governance, security, and cost | Moltrix Azure Adoption Brief | Planned |
+| October–December | AZ-104 | Build and operate secure Azure infrastructure for Construction and future subsidiaries | Moltrix Azure Cloud Platform Service | Planned |
+| December | AWS foundational study | Begin multi-cloud comparison after establishing Azure direction | Moltrix Azure–AWS Foundation Comparison | Planned |
+| January 2027 target | AWS Certified Cloud Practitioner | Validate foundational AWS knowledge when readiness is demonstrated | AWS foundation credential supported by comparative evidence | Planned; readiness-based |
 
-The schedule is aggressive. The December AZ-305 target depends on genuine AZ-104 capability, and the timetable will not be used to misrepresent readiness or completed work.
+## Priority and Contingency
+
+The protected priority order is:
+
+1. MD-102
+2. AZ-104
+3. AZ-900
+4. AWS Certified Cloud Practitioner
+
+If the timetable slips, the AWS exam moves into January 2027. AWS foundational study and the Azure–AWS comparison may still begin in December. AZ-104 depth will not be weakened merely to report another examination.
 
 ## Supporting Foundation — CLIENT01
 
 Moltrix Group Holdings is hiring its first employees and needs representative Windows endpoints.
 
-Phase 0 Lesson 0E.1 plans and creates CLIENT01 manually in Hyper-V. This work develops the Windows, virtualization, networking, identity, security, and troubleshooting foundations that support Microsoft 365 and Cloud administration.
+Phase 0 Lesson 0E.1 plans and creates CLIENT01 manually in Hyper-V. CLIENT01 is the first Moltrix client endpoint and virtual machine. This work develops the Windows, virtualization, networking, identity, security, and troubleshooting foundations that support endpoint and Cloud administration.
 
 Terminology is taught before exercises. Evidence is sanitized and published only after the lab is understood, completed, and validated.
 
-## Milestone 1 — Microsoft 365 Copilot and Agent Administration Foundation
+## Milestone 1 — Endpoint Administration
 
 ### Certification Alignment
 
-AB-900
+MD-102
 
 ### Intended Capability
 
-- Understand core Microsoft 365 services and objects
-- Understand identity, access, security, and governance foundations
-- Understand Microsoft 365 Copilot and agents
-- Understand data protection and governance requirements for AI-enabled work
-- Perform appropriate foundational administration activities where licensing permits
+- Plan and execute endpoint deployment
+- Manage Windows endpoints with modern administration concepts
+- Apply configuration, compliance, application, update, and security controls
+- Connect endpoint decisions to Microsoft Entra ID, Intune, and Cloud operations where licensing permits
+- Troubleshoot and document successful and failed behaviour
 
 ### Intended Portfolio Outcome
 
-> **Moltrix Microsoft 365 Copilot and Agent Administration Foundation**
+> **Moltrix Endpoint Management Service**
 
-## Milestone 2 — AI Services Administration and Governance
+The current hands-on activity is Lesson 0E.1: Planning and Creating CLIENT01. The lab has not yet started. Planning and terminology work do not constitute VM creation or validation.
 
-### Certification Alignment
-
-AB-650, conditional on final official scope and availability
-
-### Intended Capability
-
-The final capability map will be written only after Microsoft publishes authoritative AB-650 objectives. The planned business direction is secure administration, governance, monitoring, adoption, and lifecycle control for AI services in the Moltrix workplace.
-
-### Intended Portfolio Outcome
-
-> **Moltrix AI Services Administration and Governance Lab**
-
-## Milestone 3 — Azure Cloud Foundation and Governance
+## Milestone 2 — Azure Cloud Foundation
 
 ### Certification Alignment
 
@@ -81,7 +79,7 @@ AZ-900
 
 ### Business Event
 
-Moltrix leadership evaluates whether Cloud services can support future companies, project sites, controlled growth, and cost accountability.
+Moltrix leadership evaluates whether Cloud services can support future companies, project sites, controlled growth, governance, and cost accountability.
 
 ### Intended Capability
 
@@ -94,9 +92,9 @@ Moltrix leadership evaluates whether Cloud services can support future companies
 
 ### Intended Portfolio Outcome
 
-> **Moltrix Azure Cloud Foundation and Governance Plan**
+> **Moltrix Azure Adoption Brief**
 
-## Milestone 4 — Secure Azure Infrastructure Operations
+## Milestone 3 — Azure Administration
 
 ### Certification Alignment
 
@@ -109,38 +107,62 @@ Moltrix Construction requires an operational Azure environment for project resou
 ### Intended Capability
 
 - Azure identities, groups, roles, and governance
-- Resource organization and policy
+- Resource organization, naming, tagging, budgets, and policy
 - Storage, compute, and virtual networking
 - Monitoring and alerts
 - Backup and recovery
 - Cost controls and operational troubleshooting
+- Portal, Azure CLI, PowerShell, and repeatable administration
 
 ### Intended Portfolio Outcome
 
-> **Moltrix Secure Azure Infrastructure Operations Service**
+> **Moltrix Azure Cloud Platform Service**
 
-## Milestone 5 — Enterprise Cloud Architecture
+At least one Moltrix subsidiary will consume the service through a documented business requirement.
+
+## Milestone 4 — AWS Foundation and Multi-Cloud Comparison
 
 ### Certification Alignment
 
-AZ-305
+AWS Certified Cloud Practitioner
 
 ### Business Event
 
-A construction client requires Moltrix and its joint-venture partner to submit competing technology solutions. An independent fictional consultant evaluates both proposals, and the client selects the solution.
+Group Holdings begins evaluating whether selected future workloads or resilience requirements justify a second Cloud provider.
 
 ### Intended Capability
 
-- Translate business requirements into architecture
-- Design identity, governance, and monitoring
-- Design data storage, business continuity, infrastructure, and migrations
-- Compare alternatives and document trade-offs
-- Prepare technical and commercial proposals
-- Develop a traceable budget and pricing basis
+- AWS global infrastructure and shared responsibility
+- AWS Identity and Access Management
+- Foundational compute, storage, networking, database, monitoring, security, pricing, billing, and support concepts
+- Map common Azure services to AWS equivalents
+- Perform small, cost-controlled AWS exercises
+- Document cleanup and confirm cost controls
 
 ### Intended Portfolio Outcome
 
-> **Moltrix Enterprise Cloud Architecture and Transformation Proposal**
+> **Moltrix Azure–AWS Foundation Comparison**
+
+The AWS certification exam is targeted for January 2027 unless progress through MD-102, AZ-900, and AZ-104 creates a safe December readiness window.
+
+## Deferred and Strategic Credentials
+
+- **AB-900:** deferred until the Moltrix Microsoft 365 Copilot and agent-administration workstream is active
+- **AB-650:** conditional on stable official scope, availability, licensing, and lab feasibility
+- **FinOps Certified Practitioner:** after AZ-104, connecting Anwar's finance experience to Cloud cost governance
+- **AZ-305:** after AZ-104 operational evidence
+- **AWS Solutions Architect — Associate:** after the AWS foundation and Azure depth
+- **AI and Copilot credentials:** activated when Moltrix begins deploying governed AI solutions
+
+## Weekly Operating Rhythm
+
+The working assumption is up to four focused study hours per day:
+
+- 2 hours structured learning
+- 1.5 hours manual hands-on work
+- 30 minutes notes, evidence, and GitHub documentation
+
+Beginning in September, selected documentation periods also support job research, networking, résumé tailoring, LinkedIn communication, and interview preparation. Only finished work may be presented as complete.
 
 ## Employment Evidence
 
@@ -151,40 +173,53 @@ Each mature project should produce only the artifacts appropriate to work actual
 - Architecture diagram
 - Testing and troubleshooting record
 - Professor-ready demonstration
-- Resume achievement statement
+- Résumé achievement statement
 - Interview story
 - LinkedIn case-study post
 
-Applications do not need to wait until December. From October onward, completed credentials and projects may be presented as completed, while active study must be labelled accurately as in progress.
+Applications do not wait until every certification is finished. Completed credentials and projects are labelled complete; active preparation is labelled in progress.
+
+## Readiness Gates
+
+An examination is scheduled only when Anwar can:
+
+- Explain the objectives and trade-offs in his own words
+- Complete representative hands-on activities
+- Troubleshoot common failures using evidence
+- Achieve consistent practice-assessment results
+- Demonstrate the related Moltrix implementation honestly
 
 ## Scope Control
 
 - Only one major certification receives full-intensity preparation at a time.
 - At least 40% of technical study time remains hands-on.
-- New Moltrix companies are not activated unless they materially support the current milestone.
-- Artificial Intelligence and Cloud remain connected tracks rather than isolated subjects.
+- New Moltrix companies are activated only when they materially support the current milestone.
+- Artificial Intelligence and Cloud remain connected strategic tracks even when the AI certification workstream is deferred.
 - A smaller tested implementation is preferred to a large collection of unfinished designs.
+- No planned work is represented as completed.
 
 ## Current Position
 
 - [x] Phase 0 roadmap structure published
 - [x] Hyper-V selected, enabled, and verified
 - [x] Git identity corrected and Phase 0 evidence organized
-- [x] Tactical certification sequence approved
-- [ ] Complete Lesson 0E.1 terminology and planning
+- [x] July–December tactical direction revised and approved
+- [x] Lesson 0E.1 terminology and planning completed
+- [ ] Start the first manual CLIENT01 lab
 - [ ] Create CLIENT01 manually
 - [ ] Validate CLIENT01
 - [ ] Sanitize and publish Lesson 0E.1 evidence
-- [ ] Begin the AB-900-aligned Microsoft 365 and AI administration foundation
+- [ ] Begin AZ-900 only after the active MD-102 milestone reaches its readiness gate
 
-No planned certification, service, architecture, or AI solution is represented as complete.
+No planned certification, service, architecture, AI solution, or CLIENT01 implementation is represented as complete.
 
 ## Official Certification References
 
-- [AB-900 study guide](https://learn.microsoft.com/credentials/certifications/resources/study-guides/ab-900)
-- AB-650 official study guide: link pending final Microsoft publication
-- [AZ-900 study guide](https://learn.microsoft.com/credentials/certifications/resources/study-guides/az-900)
-- [AZ-104 study guide](https://learn.microsoft.com/credentials/certifications/resources/study-guides/az-104)
-- [AZ-305 study guide](https://learn.microsoft.com/credentials/certifications/resources/study-guides/az-305)
+- [MD-102 certification](https://learn.microsoft.com/credentials/certifications/modern-desktop/)
+- [AZ-900 certification](https://learn.microsoft.com/credentials/certifications/azure-fundamentals/)
+- [AZ-104 certification](https://learn.microsoft.com/credentials/certifications/azure-administrator/)
+- [AWS Certified Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/)
+- [AB-900 certification](https://learn.microsoft.com/credentials/certifications/copilot-and-agent-administration-fundamentals/)
+- [AZ-305 certification](https://learn.microsoft.com/credentials/certifications/azure-solutions-architect/)
 
-Official objectives, availability, prerequisites, and retirement notices will be checked again when each milestone is activated.
+Official objectives, availability, prerequisites, prices, and retirement notices will be checked again when each milestone is activated.

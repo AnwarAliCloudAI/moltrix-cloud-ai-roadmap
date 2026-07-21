@@ -8,21 +8,23 @@ The objective is not to collect certifications. Each phase develops a capability
 
 ## Current Tactical Priority — July to December 2026
 
-The current five-month plan concentrates Moltrix work on five connected Microsoft milestones:
+The active sequence prioritizes endpoint capability and Azure administration depth:
 
-1. AB-900 — Microsoft 365 Copilot and Agent Administration Fundamentals
-2. AB-650 — AI Services Administrator Associate path, conditional on final official availability and scope
-3. AZ-900 — Azure Fundamentals
-4. AZ-104 — Azure Administrator
-5. AZ-305 — Designing Microsoft Azure Infrastructure Solutions
+1. MD-102 — Microsoft 365 Endpoint Administrator
+2. AZ-900 — Microsoft Azure Fundamentals
+3. AZ-104 — Microsoft Azure Administrator
+4. AWS Certified Cloud Practitioner — foundational study in December, with the exam targeted for January 2027 unless readiness permits December
 
-| Certification focus | Moltrix business event | Intended portfolio outcome | Current status |
+AB-900 is deferred until the Microsoft 365 Copilot and agent-administration workstream is activated. AB-650 remains conditional, and AZ-305 follows proven AZ-104 operational capability.
+
+| Focus | Moltrix business event | Intended portfolio outcome | Current status |
 |---|---|---|---|
-| AB-900 | Group Holdings prepares an AI-enabled Microsoft 365 workplace | Microsoft 365 Copilot and Agent Administration Foundation | In progress |
-| AB-650 | Group Holdings requires governed AI service administration | AI Services Administration and Governance Lab | Planned; official scope pending |
-| AZ-900 | Leadership evaluates and approves Cloud adoption | Azure Cloud Foundation and Governance Plan | Planned |
-| AZ-104 | Construction requires an operational Azure environment | Secure Azure Infrastructure Operations Service | Planned |
-| AZ-305 | A client requires competing joint-venture technology proposals | Enterprise Cloud Architecture and Transformation Proposal | Planned |
+| MD-102 | Group Holdings establishes its first secure Windows endpoints | Moltrix Endpoint Management Service | In progress; first manual CLIENT01 lab not yet started |
+| AZ-900 | Leadership evaluates and approves Cloud adoption | Moltrix Azure Adoption Brief | Planned |
+| AZ-104 | Construction requires an operational Azure environment | Moltrix Azure Cloud Platform Service | Planned |
+| AWS foundation | Group Holdings begins a controlled second-Cloud comparison | Moltrix Azure–AWS Foundation Comparison | Planned for December study; exam readiness targeted for January 2027 |
+
+If the schedule slips, AZ-104 depth is protected and the AWS exam moves into January. Planned work is never represented as completed.
 
 [Read the July–December 2026 Tactical Roadmap](docs/program/tactical-roadmap-jul-dec-2026.md)
 
@@ -137,7 +139,7 @@ The Phase 0 exit gate requires Anwar to explain, build, test, troubleshoot, and 
 
 ### Phase 1 — Endpoint Administration and Security
 
-Endpoint work remains a supporting practical foundation. MD-102 is retained in the strategic roadmap but is not one of the five certifications activated in the July–December 2026 tactical sequence.
+Endpoint work is the active practical foundation. MD-102 is the first certification milestone in the revised July–December 2026 tactical sequence and connects Windows endpoints, identity, security, and modern management to later Azure administration work.
 
 The active evidence project is:
 
@@ -220,10 +222,11 @@ Evidence sanitization is part of the professional standard.
 - [x] Moltrix Secure Endpoint Management repository established
 - [x] Endpoint project charter completed
 - [x] Initial endpoint business and security requirements documented
-- [x] July–December 2026 certification sequence approved
+- [x] July–December 2026 tactical direction revised and approved
 - [x] Moltrix simulated-organization and two-track operating model defined
 - [x] Publish the approved vision and tactical roadmap
-- [ ] Complete Lesson 0E.1 terminology and planning
+- [x] Complete Lesson 0E.1 terminology and planning
+- [ ] Start the first manual CLIENT01 lab
 - [ ] Create and validate CLIENT01 manually
 - [ ] Complete the Phase 0 learning and lab blueprint
 - [ ] Build the Phase 0 systems and networking lab
